@@ -1,0 +1,62 @@
+.heading 
+{
+    width: 100%;
+    text-align:left;
+    display:inline;
+}
+
+.heading button{
+float:right; 
+border: 1px solid pink;
+margin-top:-45px;
+}  
+
+.btn-grad {
+    background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%);
+   
+    padding: 5px 30px;
+    
+    font-size: 55px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    font-family:cursive;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+#status{
+    font-size:22px;
+}
+           
+  .btn-grad2 {
+    background-image: linear-gradient(to right, #ee9ca7 0%, #ffdde1  51%, #ee9ca7  100%);
+    border-color:white;
+    padding: 15px 45px;
+    text-align: center;
+    font-family:cursive;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+  h4{
+    font-family:cursive;
+    font-size:20;
+  }
