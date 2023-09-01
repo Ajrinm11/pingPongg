@@ -6,7 +6,7 @@ rightWristY = 0;
 
 function preload()
 {
-  img = loadImage();
+  
 }
 
 function setup() {
